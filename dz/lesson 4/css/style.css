@@ -89,8 +89,15 @@
     width: 885px;
     padding-top: 75px;
     padding-bottom: 73px;
+    margin-bottom: -200px;
 }
 
-.position {
-    /* display: inline-block; */
+/* ===========================================Text=============================================== */
+
+
+.p-size {
+    width: 885px;
+    margin-left: 393px;
+    /* top: -400px; */
+    /* text-align: right; */
 }
