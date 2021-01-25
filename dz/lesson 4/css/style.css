@@ -1,9 +1,11 @@
-/* ======================================TITKE================================= */
+/* ======================================TITLE================================= */
 .ramda {
     font-family: Roboto;
     font-size: 80px;
     font-weight: 400;
     line-height: 94px;
+    margin-bottom: 38px;
+    margin-top: 61px;
 }
 
 .ramda-b {
@@ -101,3 +103,34 @@
     /* top: -400px; */
     /* text-align: right; */
 }
+
+/* ========================================NAV FOOTER=========================================== */
+
+ul {
+    list-style-type: none;
+    margin-top: 54px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b4b7b9;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color:lightseagreen;
+    text-decoration: underline;
+  }
+  
+  .active {
+    /* background-color: #4CAF50; */
+  }
