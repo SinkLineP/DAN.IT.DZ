@@ -55,7 +55,7 @@
 /* ================================VERTICAL NAVBAR==================================== */
 
 .vertical-menu {
-    width: 200px; 
+    width: 344px; 
     margin-top: 50px;
     border: 1px solid #000000;
   }
@@ -78,3 +78,19 @@
     color: white;
   }
 
+/* ===========================================IMAGES======================================== */
+
+.images {
+    position: relative;
+    left: 393px;
+    top:-212px;
+    border: 1px solid #000000;
+    text-align: center;
+    width: 885px;
+    padding-top: 75px;
+    padding-bottom: 73px;
+}
+
+.position {
+    /* display: inline-block; */
+}
