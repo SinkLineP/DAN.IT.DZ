@@ -1,0 +1,63 @@
+.ramda {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 94px;
+}
+
+.ramda-b {
+    color: #4bcaff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    height: 1000px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #35444f;
+    overflow: hidden;
+    /* width: 80.8%; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    /* border-right: 1px solid #FFFFFF; */
+    /* border-left: 1px solid #FFFFFF; */
+
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #222f3a;
+    color: rgb(255, 255, 255);
+
+    
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    /* background-color: #4CAF50; */
+    color: white;
+}
+
+.topnav-border-right {
+    border-right: 1px solid #FFFFFF;
+}
+
+.otstup {
+    white-space: pre;
+}
