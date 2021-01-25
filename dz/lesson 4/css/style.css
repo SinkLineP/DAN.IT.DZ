@@ -16,23 +16,18 @@
     height: 1000px;
 }
 /* =========================================HORIZANTAL NAVBAR======================================*/
-/* Add a black background color to the top navigation */
+
 .topnav {
     background-color: #35444f;
     overflow: hidden;
-    /* width: 80.8%; */
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
-    /* border-right: 1px solid #FFFFFF; */
-    /* border-left: 1px solid #FFFFFF; */
-
 
     font-family: Roboto;
     font-size: 24px;
@@ -40,18 +35,12 @@
     line-height: 28px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #222f3a;
     color: rgb(255, 255, 255);
-
-    
-
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
-    /* background-color: #4CAF50; */
     color: white;
 }
 
@@ -66,22 +55,26 @@
 /* ================================VERTICAL NAVBAR==================================== */
 
 .vertical-menu {
-    width: 200px; /* Set a width if you like */
+    width: 200px; 
+    margin-top: 50px;
+    border: 1px solid #000000;
   }
   
   .vertical-menu a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
+    background-color: #fff; 
+    color: #485863; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
   }
   
   .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #ccc;
+    color: black;
+    padding-left: 38px;
   }
   
   .vertical-menu a.active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
     color: white;
   }
+
