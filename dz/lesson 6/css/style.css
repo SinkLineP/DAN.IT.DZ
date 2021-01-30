@@ -1,0 +1,66 @@
+/* =========================================NAVBAR======================================= */
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #14B9D5;
+}
+
+.active {
+    background-color: #000000;
+}
+
+.center {
+    margin-left: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.logo {
+    width: 27px;
+    height: 27px;
+}
+
+.search {
+    width: 17px;
+    height: 17px;
+}
+
+.span {
+    vertical-align: middle;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-h {
+    height: 46px;
+}
