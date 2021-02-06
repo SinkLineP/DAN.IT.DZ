@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  background: url(../images/background1.png) no-repeat;
+  /* Параметры фона */
+}
+
+header {
+  margin-bottom: 0;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* ===================TITLE============= */
+.title-1 {
+  background-image: url(../images/logo.png);
+  margin-top: -90px;
+  position: absolute;
+  width: 53px;
+  height: 47px;
+  margin-left: 100px;
+}
+
+.title-1:hover {
+
+  background-image: url(../images/logo2.png);
+}
+
+.title-2 {
+  position: absolute;
+  width: 140px;
+  height: 90px;
+  margin-left: 170px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 29px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-top: -120px;
+}
+
+.title-2:hover {
+  color: #f26522;
+}
+
+.title-3 {
+  margin-top: -78px;
+  position: absolute;
+  width: 135px;
+
+  left: 170px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.title-3:hover {
+  color: #f26522;
+}
+
+/* =================CONTACT-TITLE================ */
+
+
+.contact-1 {
+  position: absolute;
+  width: 219px;
+  height: 21px;
+  left: 1036px;
+  top: 50px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.contact-1:hover {
+  color: #f26522;
+}
+
+.contact-2 {
+
+  position: absolute;
+  width: 146px;
+  height: 21px;
+  left: 1105px;
+  top: 90px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.contact-2:hover {
+  color: #f26522;
+}
+
+/* ===============table============= */
+
+.parents {
+  margin-top: 138px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.divs1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.divs2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.divs3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.divs4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.divs5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.divs6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.parents p {
+  text-align: left;
+  margin-left: 100px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.image-two {
+  margin-top: 3px;
+}
+
+.text-food-and-walking {
+  padding-left: 20px;
+}
+
+
+/* ======================================================== */
+
+.parents p:hover {
+  color: #f26522;
+}
+
+.divs1 {
+  width: 300px;
+  height: 220px;
+  background-image: url(../images/image-1.jpg);
+}
+
+.divs1:hover {
+  box-shadow: inset 0px -55px 0px 0px rgba(242, 101, 34, 1);
+}
+
+.divs1 div {
+  position: absolute;
+  margin-top: 180px;
+  opacity: 0;
+}
+
+.divs1 div:hover {
+  opacity: 1;
+  color: white;
+}
+
+.divs1 span:nth-child(1) {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.divs1 span:nth-child(2) {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.divs1 span:nth-child(3) {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.title {
+  margin-top: 235px;
+}
