@@ -1,0 +1,29 @@
+.form{
+    width: 60%;
+    margin: 40px auto;
+    padding: 15px;
+    box-shadow: 8px 8px 10px #000;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: grid;
+}
+
+.form_element:focus
+.form-element:focus:invalid{
+    outline-color: mediumblue;
+    outline-width: 1px;
+    outline-style: solid;
+    border: none;
+}
+
+.form-element:invalid{
+     box-shadow: none;
+     border: 2px solid #f00;
+     outline: none;
+
+}
+
+.form_label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

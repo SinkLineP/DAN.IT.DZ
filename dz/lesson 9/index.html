@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling of HTML forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="form" autocomplete="off">
+        <label for="idNameID">Your Name</label>
+ <input type="text" 
+ name="userName"
+  id="userNameID"
+   placeholder="input your name" 
+   class="form_element"
+   required
+   />
+<label class="form_label" >
+    Your email
+    <input type="email" name="userMail" 
+    id="userMailID" />
+</label>
+
+<label class="form_label" >
+    Your pass
+    <input type="password" name="userPass" 
+    id="userPassID" />
+</label>
+
+<label class="form_label" >
+    Confirm your pass
+    <input type="password" name="userPass" 
+    id="userPassID" />
+</label>
+
+<label class="form_label">  
+    Your tel (format xxx-xxx-xxxx)
+    <input type="tel" name="userTel" id="userTelID" class="form-element">
+</label>
+
+<label class="form_label">
+    date
+    <input type="date" name="" id="userDateID">
+</label>
+
+<label class="form_label">
+    time
+    <input type="time" name="" id="userTimeID">
+</label>
+
+<label class="form_label">
+    file
+    <input type="file" name="" id="userFileID">
+</label>
+
+<label class="form_label">
+    color
+    <input type="color" name="" id="userColorID">
+</label>
+
+<label class="form_label">
+    select 
+    <select name="select" id="userSelectID" class="form-element"></select>
+</label>
+
+ <input type="submit" value="SEND" />
+    </form>
+    <p contenteditable>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere praesentium dolores ad facilis, dignissimos natus fugit nesciunt velit impedit pariatur, error, voluptates repellat molestias ut quibusdam aspernatur itaque doloremque?
+    </p>
+</body>
+</html>
