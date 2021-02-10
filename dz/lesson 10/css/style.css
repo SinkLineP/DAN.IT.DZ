@@ -3,6 +3,8 @@ body {
     background-repeat: no-repeat;
 }
 
+
+/* ====================NAVBAR================== */
 .navbar {
     position: absolute;
     width: 100%;
@@ -12,9 +14,9 @@ body {
 
 }
 
- 
+
 .navbar-text {
-    position: fixed;
+    position: absolute;
     color: white;
     text-decoration: none;
     font-family: Ubuntu;
@@ -38,38 +40,48 @@ ul {
     padding: 0;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.4);
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-  }
+}
 
-  .navbar-line {
-      padding-left: 30px;
-  }
+.navbar-line {
+    padding-left: 30px;
+}
 
-  .navbar-logo {
+.navbar-logo {
     font-family: Ubuntu;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 152px;    
-  }
+    padding-left: 152px;
+}
 
-  .icons {
+.icons {
     margin-left: 65%;
-  }
-  
-  li:nth-child(5) {
-      margin-left: 64%;
-  }
-  
+}
 
+li:nth-child(5) {
+    margin-left: 64%;
+}
+
+
+/* ============FORM================ */
+
+form {
+    margin-top: 108px;
+    margin-left: 33.5%;
+    height: 584px;
+    width: 400px;
+    border-radius: 0px;
+    background-color: white;
+}
