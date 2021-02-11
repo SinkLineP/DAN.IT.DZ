@@ -82,7 +82,7 @@ form {
     margin-top: 108px;
     margin-left: auto;
     margin-right: auto;
-    height: 650px;
+    height: 615px;
     width: 444px;
     border-radius: 0px;
     background-color: white;
@@ -123,7 +123,9 @@ form {
 /* ===========FORM-BUTTON=========== */
 
 
-.form-button {}
+.form-button {
+
+}
 
 .form-button button {
     color: white;
@@ -136,7 +138,7 @@ form {
 }
 
 .form-button button:nth-child(1) {
-    margin: 15px 10px 31px 45px;
+    margin: 0px 10px 31px 45px;
     background: #305DB8;
 }
 
