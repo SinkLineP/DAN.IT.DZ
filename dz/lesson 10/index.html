@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,20 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <ul>
                 <li><a href="#" class="navbar-logo">journey</a></li>
-                <div class="icons"> 
-                <li><a href="#" class="navbar-icon"><img src="./images/icon-1.svg"></a></li>
-                <li><a href="#" class="navbar-icon"><img src="./images/icon-2.svg"></a></li>
-                <li><a href="#" class="navbar-icon"><img src="./images/icon-3.svg"></a></li>
+                <div class="icons">
+                    <li><a href="#" class="navbar-icon"><img src="./images/navbar-icon/icon-1.svg"></a></li>
+                    <li><a href="#" class="navbar-icon"><img src="./images/navbar-icon/icon-2.svg"></a></li>
+                    <li><a href="#" class="navbar-icon"><img src="./images/navbar-icon/icon-3.svg"></a></li>
                 </div>
-                <li><p class="navbar-line"><img src="./images/icon-line.svg"></p></li>
+                <li>
+                    <p class="navbar-line"><img src="./images/navbar-icon/icon-line.svg"></p>
+                </li>
                 <li><a href="#" class="navbar-text">Welcome, <span>Log In</span> or <span>Sign Up</span></a></li>
             </ul>
         </nav>
@@ -25,8 +29,49 @@
 
     <main>
         <form action="#">
-            
+            <img class="form-block" src="./images/form-icon/form-block.svg">
+            <div class="form-line">
+                <p class="form-title">
+                    <span>Sign Up</span>
+                    <span>
+                        <a href="">Log In</a>
+                    </span>
+                </p>
+            </div>
+            <br>
+            <div class="form-button">
+                <button class="facebook">
+                    <img src="./images/form-icon/facebook-icon.svg" alt="">
+                    <img src="./images/form-icon/v-line-icon.svg" alt="">
+                    <span>Facebook</span>
+                </button>
+                <button class="google">
+                    <img src="./images/form-icon/google-icon.svg" alt="">
+                    <img src="./images/form-icon/v-line-icon.svg" alt="">
+                    <span>Google</span>
+                </button>
+            </div>
+            <div class="or">
+                <p>or</p>
+            </div>
+            <div class="form-input">
+                <input type="text" name="" id="" placeholder="First Name"><br>
+                <input type="text" name="" id="" placeholder="Last Name"><br>
+                <input type="text" name="" id="" placeholder="Email"><br>
+                <input type="text" name="" id="" placeholder="Choose Password"><br>
+                <input type="text" name="" id="" placeholder="Confirm Password"><br>
+            </div>
+            <div class="form-check">
+                <label class="container">Agree with our <span>Terms & Conditions</span>
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+            <div class="form-subm">
+                <button type="submit">Create Account</button>
+            </div>
         </form>
     </main>
 </body>
+
 </html>
