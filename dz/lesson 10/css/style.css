@@ -1,8 +1,6 @@
 body {
     background-image: url(../images/background/background.jpg);
-    /* background-repeat: no-repeat; */
 }
-
 
 /* ====================NAVBAR================== */
 .navbar {
@@ -11,9 +9,7 @@ body {
     height: 58px;
     top: 0;
     left: 0;
-
 }
-
 
 .navbar-text {
     position: absolute;
@@ -29,12 +25,17 @@ body {
     margin-right: 200px;
 }
 
+.navbar-text span:hover:nth-child(1) {
+    color: #236d47;
+}
 
+.navbar-text span:hover:nth-child(2) {
+    color: #236d47;
+}
 
 .cursor {
     cursor: default;
 }
-
 
 ul {
     list-style-type: none;
@@ -80,8 +81,39 @@ li:nth-child(5) {
     margin-left: 64%;
 }
 
-.navbar-icon {
-    background-image: ;
+.navbar-icon li:nth-child(1) {
+    margin-top: 14px;
+    background-image: url(../images/navbar-icon/icon-1.svg);
+    background-repeat: no-repeat;
+    margin-right: 27px;
+}
+
+.navbar-icon li:nth-child(2) {
+    margin-top: 14px;
+    background-image: url(../images/navbar-icon/icon-2.svg);
+    background-repeat: no-repeat;
+    margin-right: 27px;
+}
+
+.navbar-icon li:nth-child(3) {
+    margin-top: 14px;
+    background-image: url(../images/navbar-icon/icon-3.svg);
+    background-repeat: no-repeat;
+}
+
+.navbar-icon li:hover:nth-child(1) {
+    background-image: url(../images/navbar-icon/hover-icon/icon-1-h.svg);
+    background-repeat: no-repeat;
+}
+
+.navbar-icon li:hover:nth-child(2) {
+    background-image: url(../images/navbar-icon/hover-icon/icon-2-h.svg);
+    background-repeat: no-repeat;
+}
+
+.navbar-icon li:hover:nth-child(3) {
+    background-image: url(../images/navbar-icon/hover-icon/icon-3-h.svg); 
+    background-repeat: no-repeat;
 }
 
 /* ============FORM================ */
@@ -117,7 +149,6 @@ form {
     font-size: 14px;
     padding-left: 232px;
     cursor: pointer;
-
 }
 
 .form-title a {
@@ -125,16 +156,16 @@ form {
     color: #3CB878;
 }
 
+.form-title a:hover {
+    text-decoration: underline;
+    color: #01813F;
+}
+
 .form-block {
     margin: 29px 23px 0px 0px;
 }
 
 /* ===========FORM-BUTTON=========== */
-
-
-.form-button {
-
-}
 
 .form-button button {
     color: white;
@@ -181,7 +212,6 @@ form {
     margin-left: 13px;
 }
 
-
 /* =============GOOGLE============ */
 
 .google img:nth-child(1) {
@@ -208,8 +238,6 @@ form {
 
 /* ============INPUT======== */
 
-.form-input {}
-
 .form-input input {
     width: 324px;
     height: 46px;
@@ -219,12 +247,14 @@ form {
     margin-right: auto;
     border: 1px solid #F2F2F2;
     border-radius: 4px;
-    /* box-shadow: 0 0 8px -3px #888; */
+}
+
+.form-input input:focus { 
+    outline: none; 
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.21);
 }
 
 /* =========CHECKBOX============ */
-
-
 
 .container {
     display: block;
@@ -246,6 +276,11 @@ form {
     color: #49bc80;
 }
 
+.container span:hover {
+    color: #01813f;
+    text-decoration: underline;
+}
+
 .container input {
     position: absolute;
     opacity: 0;
@@ -263,10 +298,6 @@ form {
     background-color: white;
     border: 1px solid #F2F2F2
 }
-
-/* .container input:checked~.checkmark {
-    background-color: white;
-} */
 
 .checkmark:after {
     content: "";
@@ -290,11 +321,9 @@ form {
     transform: rotate(45deg);
 }
 
-
 /* ==================SUBMIT================= */
 
-
-.form-subm button{
+.form-subm button {
     display: block;
     margin-top: 20px;
     margin-left: auto;
@@ -305,4 +334,11 @@ form {
     border-radius: 4px;
     border: none;
     color: white;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-subm button:hover {
+    background: #01813F;
 }
